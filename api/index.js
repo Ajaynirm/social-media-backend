@@ -20,6 +20,6 @@ app.use('/api/blog/',blogRouter);
 
 //starting mongodb server
 startServer();
-
-
-export {app};
+app.listen(3000, () => {
+    console.log('app listening on port');
+});
