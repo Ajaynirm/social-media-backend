@@ -1,8 +1,8 @@
 import express from 'express';
 import bodyParser from 'body-parser';
-import startServer from './database/connectDB.js';
-import userRouter from './routes/userRoutes.js';
-import blogRouter from './routes/blogRoutes.js';
+import startServer from '../database/connectDB.js';
+import userRouter from '../routes/userRoutes.js';
+import blogRouter from '../routes/blogRoutes.js';
 
 
 
@@ -23,5 +23,3 @@ startServer();
 //starting local server
 app.listen(port, () => {
     console.log(`listening on port ${port}`);
-});
-//database  k1u11R9HIoEmQbw0
