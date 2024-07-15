@@ -21,8 +21,9 @@ app.use('/api/blog/',blogRouter);
 //starting mongodb server
 startServer();
 //starting local server
-app.listen(port, () => {
+/*app.listen(port, () => {
     console.log(`listening on port ${port}`)
 });
+*/
 
 module.exports=app;
