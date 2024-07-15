@@ -22,4 +22,4 @@ app.use('/api/blog/',blogRouter);
 startServer();
 
 
-module.exports=app;
+export {app};
